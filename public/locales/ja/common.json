@@ -876,5 +876,11 @@
     "crowdsec": {
         "alerts": "アラート",
         "bans": "Bans"
+    },
+    "wgeasy": {
+        "connected": "Connected",
+        "enabled": "有効",
+        "disabled": "無効",
+        "total": "合計"
     }
 }

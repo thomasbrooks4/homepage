@@ -876,5 +876,11 @@
     "crowdsec": {
         "alerts": "警告",
         "bans": "禁用"
+    },
+    "wgeasy": {
+        "connected": "已连接",
+        "enabled": "启用",
+        "disabled": "禁用",
+        "total": "总计"
     }
 }

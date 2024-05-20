@@ -876,5 +876,11 @@
     "crowdsec": {
         "alerts": "Varsler",
         "bans": "Utestengelse"
+    },
+    "wgeasy": {
+        "connected": "Tilkoblet",
+        "enabled": "Aktivert",
+        "disabled": "Deaktivert",
+        "total": "Totalt"
     }
 }

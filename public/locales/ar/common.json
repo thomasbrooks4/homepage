@@ -876,5 +876,11 @@
     "crowdsec": {
         "alerts": "تنبيهات",
         "bans": "Bans"
+    },
+    "wgeasy": {
+        "connected": "Connected",
+        "enabled": "مفعل",
+        "disabled": "معطل",
+        "total": "المجموع"
     }
 }

@@ -876,5 +876,11 @@
     "crowdsec": {
         "alerts": "Allarmi",
         "bans": "Bans"
+    },
+    "wgeasy": {
+        "connected": "Connesso",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitati",
+        "total": "Totale"
     }
 }
