@@ -8,6 +8,8 @@ const widget = {
     libraries: {
       endpoint: "libraries",
     },
+    online: {
+      endpoint: "users/online",
   },
 };
 
