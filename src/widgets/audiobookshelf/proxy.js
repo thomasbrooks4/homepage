@@ -46,6 +46,13 @@ export default async function audiobookshelfProxyHandler(req, res) {
 
   try {
     const url = new URL(formatApiCall(apiURL, { endpoint, ...widget }));
+    
+    if (widget.key === "online") {
+      const usersOnlineData = await retrieveFromAPI(url, widget.key);
+
+      return res.status(200).send(usersOnlineData);
+    }
+    
     const libraryData = await retrieveFromAPI(url, widget.key);
 
     const libraryStats = await Promise.all(
