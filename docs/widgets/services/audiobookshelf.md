@@ -7,7 +7,9 @@ Learn more about [Audiobookshelf](https://github.com/advplyr/audiobookshelf).
 
 You can find your API token by logging into the Audiobookshelf web app as an admin, go to the config → users page, and click on your account.
 
-Allowed fields: `["podcasts", "podcastsDuration", "books", "booksDuration"]`
+Allowed fields (limited to a max of 4): `["usersOnline", "podcasts", "podcastsDuration", "books", "booksDuration"]`
+
+Default fields: `["podcasts", "podcastsDuration", "books", "booksDuration"]`
 
 ```yaml
 widget:
